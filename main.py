@@ -8,7 +8,7 @@ password= ""
 
 URL="https://www.amazon.com/Logitech-Master-Advanced-Wireless-Mouse/dp/B07XC2FWD1"
 LANGUAGE= "en-US,en;q=0.9,ro;q=0.8"
-AGENT= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36"
+AGENT= ""
 DESIRED_PRICE= 100
 
 response= requests.get(URL, headers= {'Accept-Language' : LANGUAGE,
