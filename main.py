@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup 
 import smtplib
 
-my_email = "stef.test99@gmail.com"
-password= "Tester19"
+my_email = ""
+password= ""
 
 
 URL="https://www.amazon.com/Logitech-Master-Advanced-Wireless-Mouse/dp/B07XC2FWD1"
@@ -25,6 +25,6 @@ if price<= DESIRED_PRICE:
 
             connection.sendmail(
                 from_addr =  my_email,
-                to_addrs= "recep.stef99@gmail.com",
+                to_addrs= "",
                 msg= f"Subject:Cheap Product\n\n {message}")
 
